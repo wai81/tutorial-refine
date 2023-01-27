@@ -13,9 +13,11 @@ import {
   ErrorComponent,
 } from '@pankod/refine-mui';
 
-import dataProvider from '@pankod/refine-simple-rest';
+//import dataProvider from '@pankod/refine-simple-rest';
+
 import routerProvider from '@pankod/refine-react-router-v6';
 import { MuiInferencer } from '@pankod/refine-inferencer/mui';
+import { dataProvider } from 'rest-data-provider';
 
 function App() {
   return (
